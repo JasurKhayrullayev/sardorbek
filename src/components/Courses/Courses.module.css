@@ -1,0 +1,77 @@
+.course__container{
+    margin: 0 auto;
+    padding: 25px 40px;
+    max-width: 1400px;
+    display: flex;
+    flex-direction: column;
+}
+
+.course__title{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 28px;
+    line-height: 16px;
+    color: #565656;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.course__author{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 16px;
+    color: #565656;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.course__desc{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 16px;
+    color: #565656;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.course__list{
+    padding: 20px 100px;
+}
+
+.course__list-item{
+    display: flex;
+    margin-bottom: 30px;
+    border-bottom: 3px solid #F7F7F7;
+}
+
+.course__list-youtube{
+    margin-right: 50px;
+}
+
+.course__list-pr{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 28px;
+    line-height: 16px;
+    color: #565656;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.course__list-title{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 16px;
+    color: #565656;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
