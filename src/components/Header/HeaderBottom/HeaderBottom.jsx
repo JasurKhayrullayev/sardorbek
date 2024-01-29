@@ -17,9 +17,6 @@ function HeaderBottom() {
             </a>
             <nav className={headerBottomStyle["header__bottom-nav"]}>
                 <a className={headerBottomStyle["header__bottom-navlink"]} href="/">Home</a>
-                <a className={headerBottomStyle["header__bottom-navlink"]} href="/">Courses</a>
-                <a className={headerBottomStyle["header__bottom-navlink"]} href="/">Pages</a>
-                <a className={headerBottomStyle["header__bottom-navlink"]} href="/">Blogs</a>
                 <a className={headerBottomStyle["header__bottom-navlink"]} href="/">Contact Us</a>
             </nav>
             <div className={headerBottomStyle["header__bottom-mix"]}>
