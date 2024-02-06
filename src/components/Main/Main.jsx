@@ -5,12 +5,12 @@ import Elephent from '../../assets/elephant.webp'
 import Essay from '../../assets/essay.webp'
 import Pen from '../../assets/pen.webp'
 import Len from '../../assets/len.jpeg'
-import White from '../../assets/white.webp'
-import Human from '../../assets/human.webp'
-import Machine from '../../assets/machine.webp'
-import Lamp from '../../assets/lamp.webp'
-import Google from '../../assets/google.avif'
-import Atom from '../../assets/atom.webp'
+// import White from '../../assets/white.webp'
+// import Human from '../../assets/human.webp'
+// import Machine from '../../assets/machine.webp'
+// import Lamp from '../../assets/lamp.webp'
+// import Google from '../../assets/google.avif'
+// import Atom from '../../assets/atom.webp'
 import { MdOutlineFilterNone , MdSubject } from "react-icons/md";
 import { SiLevelsdotfyi } from "react-icons/si";
 import { IoMdTime } from "react-icons/io";
@@ -22,124 +22,58 @@ function Main({data:initialData}) {
 const defaultData = [
     {
         img: Person,
-        author: "Class Central",
-        title: "9000 Free Courses from Tech Giants",
+        author: "Excel",
+        title: "Grafiklar va formulalar",
         state: "⭐️⭐️⭐️⭐️⭐️",
-        decs: "Best Online Courses of All Time",
-        filter: "With certificate",
-        level: "Beginner",
-        duration: "2-5 hours",
-        subject: "Business",
+        decs: "Excelning asosiy funksiyalari, formulalari va ma'lumotlar analizi uchun kerakli ko'nikmalarni o'rganasiz. Bizning kursimiz o'qituvchilarimiz tomonidan rivojlangan darsliklar, amaliy mashqlar va ko'p to'plangan topshiriqlar orqali o'zlashtiriladi.",
+        filter: "Sertifikat bilan",
+        level: "Yuqori",
+        duration: "8-10 soat",
+        subject: "MS Office",
     },
     {
         img: Elephent,
-        author: "Tum",
-        title: "Six Sigma Part 1: Define and Measure",
+        author: "Canva",
+        title: "Canva 1 qism",
         state: "⭐️⭐️⭐️⭐️",
-        decs: "In this first course of the Six Sigma Program, you will understand the background and meaning of Six Sigma and the five steps of the DMAIC process improvement flow",
-        filter: "Free course",
-        level: "Intermadiate",
-        duration: "5-10 hours",
-        subject: "Science",
+        decs: "Canva kursida kreativ dizayn va grafika yaratishda kerak bo'lgan asosiy texnikalarni o'rganasiz. Sizga Canva platformasida dizayn qilish va o'z mashg'ulotlaringizni yaratishda yordam beradi .",
+        filter: "Tekin kurs",
+        level: "O'rta",
+        duration: "2-4 soat",
+        subject: "Dizayn",
     },
     {
         img: Essay,
-        author: "LMU Munich",
-        title: "Academic Writing Made Easy",
+        author: "JavaScript",
+        title: "Dasturlash tillarining otasi",
         state: "⭐️⭐️⭐️",
-        decs: "This MOOC takes you through the basics of academic writing step by step. From structuring and organising an academic text to avoiding common pitfalls that can negatively affect your credibility",
-        filter: "Univercity course only",
-        level: "Advanced",
-        duration: "10+ hours",
-        subject: "Computer Science",
+        decs: "JavaScript orqali veb-saytlar yaratish va dinamik web ilovalarini rivojlantirishda yordam beradi.",
+        filter: "Sertifikat bilan",
+        level: "Yuqori",
+        duration: "10+ soat",
+        subject: "Dasturlash",
     },
     {
         img: Pen,
-        author: "RthwAchen Univercity",
-        title: "Competitive Strategy",
+        author: "Taym Menejment",
+        title: "Vaqtni to'g'ri boshqarish",
         state: "⭐️",
-        decs: "In this six-module course, you will learn how businesses and organizations behave in situations in which strategic decisions are interdependent",
-        filter: "With certificate",
-        level: "Beginner",
-        duration: "2-5 hours",
-        subject: "Engineering",
+        decs: "Bu 5 darslik kursda siz vaqtdan unumli foydalanishni va unumdorlikni oshirish sirlarini o'rganasiz",
+        filter: "Tekin kurs",
+        level: "O`rta",
+        duration: "2-5 soat",
+        subject: "Shaxsiy rivojlanish",
     },
     {
         img: Len,
-        author: "RthwAchen Univercity",
-        title: "Lean Six Sigma: Green Belt Sustainability Project",
+        author: "Iqtisodiy Modellar",
+        title: "Iqtisodiyot kurslari",
         state: "⭐️⭐️⭐️",
-        decs: "Every employee is involved in business processes to create products or services.",
-        filter: "Free course",
-        level: "Intermadiate",
-        duration: "5-10 hours",
-        subject: "Humanities",
-    },
-    {
-        img: White,
-        author: "Univers Tasmania",
-        title: "Financing Biotech Innovations",
-        state: "⭐️⭐️⭐️⭐️⭐️",
-        decs: "To harvest the enormous potential of ground-breaking research in the field of biotechnology, large amounts of financing are needed.",
-        filter: "Univercity course only",
-        level: "Advanced",
-        duration: "10+ hours",
-        subject: "Social Sciences",
-    },
-    {
-        img: Human,
-        author: "Sarland Academy",
-        title: "Customer-Centric Innovation",
-        state: "⭐️⭐️⭐️",
-        decs: "Addressing the needs of your customers is the core factor of managing innovation successfully. Exactly this is the task of the first stages of an innovation project.",
-        filter: "With certificate",
-        level: "Beginner",
-        duration: "2-5 hours",
-        subject: "Programming",
-    },
-    {
-        img: Machine,
-        author: "Tum",
-        title: "Machine Dynamics with MATLAB",
-        state: "⭐️⭐️⭐️⭐️",
-        decs: "This course will introduce you to a broad range of methodologies used in the field of machine dynamics.",
-        filter: "Free course",
-        level: "Intermadiate",
-        duration: "5-10 hours",
-        subject: "Health & Medicine",
-    },
-    {
-        img: Lamp,
-        author: "LMU Munich",
-        title: "Einführung in Marketing",
-        state: "⭐️⭐️⭐️",
-        decs: "In diesem Kurs werden Ihnen die Grundlagen zur strategischen und operativen Gestaltung des Marketings eines Unternehmens vermittelt",
-        filter: "Univercity course only",
-        level: "Advanced",
-        duration: "10+ hours",
-        subject: "Art & Design",
-    },
-    {
-        img: Google,
-        author: "Class Central",
-        title: "(Un-)Heilige Texte Biblische Theologie",
-        state: "⭐️⭐️⭐️⭐️⭐️",
-        decs: "Best Online Courses of All Time",
-        filter: "With certificate",
-        level: "Beginner",
-        duration: "2-5 hours",
-        subject: "Mathematics",
-    },
-    {
-        img: Atom,
-        author: "Tum",
-        title: " 600 Free Google Certifications",
-        state: "⭐️⭐️⭐️⭐️",
-        decs: "In this first course of the Six Sigma Program, you will understand the background and meaning of Six Sigma and the five steps of the DMAIC process improvement flow",
-        filter: "Free course",
-        level: "Intermadiate",
-        duration: "5-10 hours",
-        subject: "Personal Development",
+        decs: "Iqtisodiy modellar kursimizda klassik, neoklassik, keynsiyen va boshqa modellarga kirish tahlil qilinadi. Bu kurs o'quvchilarga turli iqtisodiy konseptlar va modellarni tushuntiradi, ularning moliyaviy jarayonlarga ta'siri haqida tushunchalar olishga yordam beradi.",
+        filter: "Tekin kurs",
+        level: "Boshlang'ich",
+        duration: "2-4 soat",
+        subject: "Ijtimoiy fan",
     },
 ];
 
@@ -153,83 +87,101 @@ const data = initialData || defaultData;
                 <div className={MainStyle['main__left-main']}>
                     <div className={MainStyle['main__left-head']}>
                         <label className={MainStyle['main__left-item']}>
-                            <input type="checkbox"/> With certificate (108)
+                            <input type="checkbox"/> Sertifikat bilan (108)
                         </label>
                         <label className={MainStyle['main__left-item']}>
-                            <input type="checkbox"/> Free course (173)
-                        </label>
-                        <label className={MainStyle['main__left-item']}>
-                            <input type="checkbox"/> Univercity course only (171)
+                            <input type="checkbox"/> Tekin kurslar (173)
                         </label>
                     </div>
                     <div className={MainStyle['main__left-body']}>
-                        <h3 className={MainStyle['main__left-title']}>Level</h3>
+                        <h3 className={MainStyle['main__left-title']}>Daraja</h3>
                         <label className={MainStyle['main__left-item']}>
-                            <input type="checkbox"/> Beginner (42)
+                            <input type="checkbox"/> Boshlang`ich (42)
                         </label>
                         <label className={MainStyle['main__left-item']}>
-                            <input type="checkbox"/> Intermadiate (25)
+                            <input type="checkbox"/> O`rta (25)
                         </label>
                         <label className={MainStyle['main__left-item']}>
-                            <input type="checkbox"/> Advanced (171)
+                            <input type="checkbox"/> Yuqori (171)
                         </label>
                     </div>
                     <div className={MainStyle['main__left-nav']}>
-                        <h3 className={MainStyle['main__left-title']}>Duration</h3>
+                        <h3 className={MainStyle['main__left-title']}>Davomiyligi</h3>
                         <label className={MainStyle['main__left-item']}>
-                            <input type="checkbox"/> 2-5 hours (2)
+                            <input type="checkbox"/> 2-5 soat (2)
                         </label>
                         <label className={MainStyle['main__left-item']}>
-                            <input type="checkbox"/> 5-10 hours (25)
+                            <input type="checkbox"/> 5-10 soat (25)
                         </label>
                         <label className={MainStyle['main__left-item']}>
-                            <input type="checkbox"/> 10+ hours (120)
+                            <input type="checkbox"/> 10+ soat (120)
                         </label>
                     </div>
                     <div className={MainStyle['main__left-foot']}>
-                        <h3 className={MainStyle['main__left-title']}>Subject</h3>
+                        <h3 className={MainStyle['main__left-title']}>Fan va yo`nalishlar</h3>
                         <label className={MainStyle['main__left-item']}>
-                            <input type="checkbox"/> Business (64)
+                            <input type="checkbox"/> Biznes (64)
                         </label>
                         <label className={MainStyle['main__left-item']}>
-                            <input type="checkbox"/> Science (23)
+                            <input type="checkbox"/> Ijtimoiy fan (13)
                         </label>
                         <label className={MainStyle['main__left-item']}>
-                            <input type="checkbox"/> Computer Science (15)
+                            <input type="checkbox"/> Dizayn (9)
                         </label>
                         <label className={MainStyle['main__left-item']}>
-                            <input type="checkbox"/> Engineering (15)
+                            <input type="checkbox"/> Shaxsiy rivojlanish (4)
                         </label>
                         <label className={MainStyle['main__left-item']}>
-                            <input type="checkbox"/> Humanities (13)
+                            <input type="checkbox"/> Sertifikatsiyalar (3)
+                        </label>
+                    </div>
+                    <div className={MainStyle['main__left-foot']}>
+                        <h3 className={MainStyle['main__left-title']}>Dasturlash</h3>
+                        <label className={MainStyle['main__left-item']}>
+                            <input type="checkbox"/> Java (64)
                         </label>
                         <label className={MainStyle['main__left-item']}>
-                            <input type="checkbox"/> Social Sciences (13)
+                            <input type="checkbox"/> Phyton (23)
                         </label>
                         <label className={MainStyle['main__left-item']}>
-                            <input type="checkbox"/> Programming (12)
+                            <input type="checkbox"/> C++ / C# (13)
                         </label>
                         <label className={MainStyle['main__left-item']}>
-                            <input type="checkbox"/> Health & Medicine (10)
+                            <input type="checkbox"/> Php (9)
                         </label>
                         <label className={MainStyle['main__left-item']}>
-                            <input type="checkbox"/> Art & Design (9)
+                            <input type="checkbox"/> JavaScript (4)
                         </label>
                         <label className={MainStyle['main__left-item']}>
-                            <input type="checkbox"/>  Mathematics (4)
+                            <input type="checkbox"/> Sql (3)
+                        </label>
+                    </div>
+                    <div className={MainStyle['main__left-foot']}>
+                        <h3 className={MainStyle['main__left-title']}>MS Office</h3>
+                        <label className={MainStyle['main__left-item']}>
+                            <input type="checkbox"/> Word (64)
                         </label>
                         <label className={MainStyle['main__left-item']}>
-                            <input type="checkbox"/> Personal Development (4)
+                            <input type="checkbox"/> Excel (23)
                         </label>
                         <label className={MainStyle['main__left-item']}>
-                            <input type="checkbox"/> Certifications (3)
+                            <input type="checkbox"/> PowerPoint (13)
+                        </label>
+                        <label className={MainStyle['main__left-item']}>
+                            <input type="checkbox"/> Outlook (9)
+                        </label>
+                        <label className={MainStyle['main__left-item']}>
+                            <input type="checkbox"/> OneNote (4)
+                        </label>
+                        <label className={MainStyle['main__left-item']}>
+                            <input type="checkbox"/> OneDrive (3)
                         </label>
                     </div>
                 </div>
             </div>
             <div className={MainStyle['main__right']}>
                 <span className={MainStyle['main__right-head']}>
-                    <h3 className={MainStyle['main__right-title']}>Showing <span className={MainStyle['main__right-titleSp']}>183 Courses</span></h3>
+                    <h3 className={MainStyle['main__right-title']}> <span className={MainStyle['main__right-titleSp']}>Kurslar</span></h3>
                     <select className={MainStyle["main__right-headSelect"]}>
                         <option value="Uz">Sort by Relevancy</option>
                         <option value="Eng">Highest rated</option>

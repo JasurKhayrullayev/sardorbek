@@ -4,14 +4,14 @@ import { FaShare } from "react-icons/fa";
 function Intro() {
     return (
         <div className={IntroStyle['intro__container']}>
-            <p className={IntroStyle['intro__free']}>Free Online</p>
-            <h2 className={IntroStyle['intro__title']}>Uzbek Courses & Certifications</h2>
-            <p className={IntroStyle['  ']}>Free online courses and certificates from Berlin University of the Arts, RWTH Aachen <br /> University, TU Munich and other top universities in Germany. Learn Six Sigma, Academic <br /> Writing, Strategic Management and other popular topics.</p>
+            <p className={IntroStyle['intro__free']}>Onlayn darslar</p>
+            <h2 className={IntroStyle['intro__title']}>Kurslar & Sertifikatsiyalar</h2>
+            <p className={IntroStyle['intro__parag']}>Xush kelibsiz veb-saytimizga! <br /> Bizning kurslarimiz sizni o'rganish va rivojlantirishga yo'l ochishga yordam beradi. <br /> Boshlash uchun, kurslarimizni ko'ring va o'zingiz uchun eng muhim mavzularni tanlang. <br /> Bizning jamoa sizni o'z vaqtingiz va maqsadingizga qarab yordam berishga tayyor!</p>
             <span className={IntroStyle['intro__bottom']}>
                 <button className={IntroStyle['intro__bottom-btn']}>
-                    <FaShare/>  Share
+                    <FaShare/>  Ulashish
                 </button>
-                <p className={IntroStyle['intro__bottom-parag']}>183 courses</p>
+                <p className={IntroStyle['intro__bottom-parag']}>10 kurslar</p>
             </span>
         </div>
     )

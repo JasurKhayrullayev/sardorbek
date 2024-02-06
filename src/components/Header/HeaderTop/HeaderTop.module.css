@@ -10,7 +10,7 @@
 }
 
 .header__top-nav{
-    margin-right: 66px;
+    margin-right: 76px;
 }
 
 .header__top-link{
@@ -47,7 +47,7 @@
 .header__option{
     display: flex;
     align-items: center;
-    margin-left: 631px;
+    margin-left: 680px;
 }
 
 .header__option-link{

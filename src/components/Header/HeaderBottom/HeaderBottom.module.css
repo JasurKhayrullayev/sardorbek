@@ -14,11 +14,11 @@
 .header__bottom-logolink{
     width: 114px;
     height: 34px;
-    margin-right: 290px;
+    margin-right: 250px;
 }
 
 .header__bottom-nav{
-    margin-right: 150px;
+    margin-right: 100px;
 }
 
 .header__bottom-navlink{
@@ -40,30 +40,39 @@
 }
 
 .header__bottom-mix{
-    margin-right: 50px
+    display: flex;
+    align-items: center;
 }
 
 .header__bottom-search{
-    width: 28px;
-    height: 28px;
-    margin-right: 20px;
+    width: 300px;
+    border-radius: 8px;
+    padding: 5px 0 5px 10px;
+    background: #fff;
+    margin-right: 130px;
+    display: flex;
+    align-items: center;
+}
+
+.header__bottom-input{
+    border: none;
 }
 
 .header__bottom-line{
-    width: 28px;
-    height: 28px;
+    width: 30px;
+    height: 30px;
     margin-right: 20px;
 }
 
 .header__bottom-like{
-    width: 28px;
-    height: 28px;
+    width: 30px;
+    height: 30px;
     margin-right: 20px;
 }
 
 .header__bottom-bag{
-    width: 28px;
-    height: 28px;
+    width: 30px;
+    height: 30px;
     margin-right: 20px;
 }
 

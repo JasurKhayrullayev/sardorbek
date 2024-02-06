@@ -29,15 +29,11 @@ function HeaderTop() {
             <span className={headerTopStyle["header__tel-img"]}>
                 <img src={telIco} width={30} height={30} alt="tel-icon" />
             </span>
-            <a className={headerTopStyle["header__tel-num"]} href="tel:(+123)4567890">(+123)4567890</a>
+            <a className={headerTopStyle["header__tel-num"]} href="tel:(+998)950712095">(+998)950712095</a>
             
         </div>
         <div className={headerTopStyle["header__option"]}>
-            <a className={headerTopStyle["header__option-link"]} href="/">Setting</a>
-            <select className={headerTopStyle["header__option-money"]} name="" id="">
-                <option value="Uz">UZS</option>
-                <option value="Eng">USD</option>
-            </select>
+            <a className={headerTopStyle["header__option-link"]} href="/">Sozlamalar</a>
             <select className={headerTopStyle["header__option-lang"]} name="" id="">
                 <option value="Uz">Uzbek</option>
                 <option value="Eng">English</option>

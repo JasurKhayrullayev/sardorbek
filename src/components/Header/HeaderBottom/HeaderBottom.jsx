@@ -16,12 +16,13 @@ function HeaderBottom() {
                 <img src={siteLogo} width={114} height={34} alt="site-logo" />
             </a>
             <nav className={headerBottomStyle["header__bottom-nav"]}>
-                <a className={headerBottomStyle["header__bottom-navlink"]} href="/">Home</a>
-                <a className={headerBottomStyle["header__bottom-navlink"]} href="/">Contact Us</a>
+                <a className={headerBottomStyle["header__bottom-navlink"]} href="/">Uy</a>
+                <a className={headerBottomStyle["header__bottom-navlink"]} href="/">Biz bilan bog`lanish</a>
             </nav>
             <div className={headerBottomStyle["header__bottom-mix"]}>
                 <span className={headerBottomStyle["header__bottom-search"]}>
                     <img src={search} alt="search" />
+                    <input placeholder='Qidiruv' className={headerBottomStyle["header__bottom-input"]} type="text" />
                 </span>
                 <span className={headerBottomStyle["header__bottom-line"]}>
                     <img width={28} height={28} src={line} alt="line" />
