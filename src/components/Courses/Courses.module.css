@@ -54,24 +54,25 @@
     margin-right: 50px;
 }
 
+.course__list-wrap{
+    align-self: center;
+}
+
 .course__list-pr{
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 900;
-    font-size: 28px;
-    line-height: 16px;
+    font-size: 38px;
+    line-height: 26px;
     color: #565656;
-    margin-bottom: 20px;
-    margin-top: 20px;
+    margin-bottom: 30px;
 }
 
 .course__list-title{
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 500;
-    font-size: 22px;
-    line-height: 16px;
+    font-size: 32px;
+    line-height: 26px;
     color: #565656;
-    margin-bottom: 20px;
-    margin-top: 20px;
 }
