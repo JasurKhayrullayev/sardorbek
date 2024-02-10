@@ -1,16 +1,10 @@
 import MainStyle from './Main.module.css'
 import { VscSettings } from "react-icons/vsc";
-import Person from '../../assets/person.avif'
-import Elephent from '../../assets/elephant.webp'
-import Essay from '../../assets/essay.webp'
-import Pen from '../../assets/pen.webp'
-import Len from '../../assets/len.jpeg'
-// import White from '../../assets/white.webp'
-// import Human from '../../assets/human.webp'
-// import Machine from '../../assets/machine.webp'
-// import Lamp from '../../assets/lamp.webp'
-// import Google from '../../assets/google.avif'
-// import Atom from '../../assets/atom.webp'
+import Excel from '../../assets/exel.jpg'
+import Canva from '../../assets/canva.jpg'
+import Js from '../../assets/js.jpg'
+import Manage from '../../assets/manage.jpg'
+import Economy from '../../assets/economy.jpg'
 import { MdOutlineFilterNone , MdSubject } from "react-icons/md";
 import { SiLevelsdotfyi } from "react-icons/si";
 import { IoMdTime } from "react-icons/io";
@@ -21,7 +15,7 @@ function Main({data:initialData}) {
 
 const defaultData = [
     {
-        img: Person,
+        img: Excel,
         author: "Excel",
         title: "Grafiklar va formulalar",
         state: "⭐️⭐️⭐️⭐️⭐️",
@@ -32,7 +26,7 @@ const defaultData = [
         subject: "MS Office",
     },
     {
-        img: Elephent,
+        img: Canva,
         author: "Canva",
         title: "Canva 1 qism",
         state: "⭐️⭐️⭐️⭐️",
@@ -43,7 +37,7 @@ const defaultData = [
         subject: "Dizayn",
     },
     {
-        img: Essay,
+        img: Js,
         author: "JavaScript",
         title: "Dasturlash tillarining otasi",
         state: "⭐️⭐️⭐️",
@@ -54,7 +48,7 @@ const defaultData = [
         subject: "Dasturlash",
     },
     {
-        img: Pen,
+        img: Manage,
         author: "Taym Menejment",
         title: "Vaqtni to'g'ri boshqarish",
         state: "⭐️",
@@ -65,7 +59,7 @@ const defaultData = [
         subject: "Shaxsiy rivojlanish",
     },
     {
-        img: Len,
+        img: Economy,
         author: "Iqtisodiy Modellar",
         title: "Iqtisodiyot kurslari",
         state: "⭐️⭐️⭐️",
