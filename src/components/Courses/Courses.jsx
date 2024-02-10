@@ -16,35 +16,35 @@ function Courses() {
                     </span>
                 </li>
                 <li className={CourseStyle['course__list-item']}>
-                    <YouTube className={CourseStyle['course__list-youtube']} videoId="wbJcJCkBcMg"/>
+                    <YouTube className={CourseStyle['course__list-youtube']} videoId="y4bA2CNScg8"/>
                     <span className={CourseStyle['course__list-wrap']}>
                         <p className={CourseStyle['course__list-pr']}>lesson 2</p>
                         <p className={CourseStyle['course__list-title']}>Excelga kirish</p>
                     </span>
                 </li>
                 <li className={CourseStyle['course__list-item']}>
-                    <YouTube className={CourseStyle['course__list-youtube']} videoId="LgXzzu68j7M"/>
+                    <YouTube className={CourseStyle['course__list-youtube']} videoId="nOS2jBSnIVE"/>
                     <span className={CourseStyle['course__list-wrap']}>
                         <p className={CourseStyle['course__list-pr']}>lesson 3</p>
                         <p className={CourseStyle['course__list-title']}>Excelda grafiklar bilan ishlash</p>
                     </span>
                 </li>
                 <li className={CourseStyle['course__list-item']}>
-                    <YouTube className={CourseStyle['course__list-youtube']} videoId="wbJcJCkBcMg"/>
+                    <YouTube className={CourseStyle['course__list-youtube']} videoId="7tx1H7sxSL0"/>
                     <span className={CourseStyle['course__list-wrap']}>
                         <p className={CourseStyle['course__list-pr']}>lesson 4</p>
                         <p className={CourseStyle['course__list-title']}>Excelda jadvallar bilan ishlash</p>
                     </span>
                 </li>
                 <li className={CourseStyle['course__list-item']}>
-                    <YouTube className={CourseStyle['course__list-youtube']} videoId="pkD8p1uakm8"/>
+                    <YouTube className={CourseStyle['course__list-youtube']} videoId="jbno1SwmIFE"/>
                     <span className={CourseStyle['course__list-wrap']}>
                         <p className={CourseStyle['course__list-pr']}>lesson 5</p>
                         <p className={CourseStyle['course__list-title']}>Excelda formulalardan to`g`ri foydalanish</p>
                     </span>
                 </li>
                 <li className={CourseStyle['course__list-item']}>
-                    <YouTube className={CourseStyle['course__list-youtube']} videoId="LgXzzu68j7M"/>
+                    <YouTube className={CourseStyle['course__list-youtube']} videoId="WvYP4--CCc8"/>
                     <span className={CourseStyle['course__list-wrap']}>
                         <p className={CourseStyle['course__list-pr']}>lesson 6</p>
                         <p className={CourseStyle['course__list-title']}>Excelda tayyor dasturlar</p>
